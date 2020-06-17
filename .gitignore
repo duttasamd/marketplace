@@ -10,11 +10,11 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
-
+*.save
 # Mac bundle stuff
 *.dmg
 *.app
-
+Marketplace/appsettings.json
 # content below from: https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
 # General
 .DS_Store
