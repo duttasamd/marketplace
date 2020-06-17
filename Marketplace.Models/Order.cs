@@ -7,6 +7,7 @@ namespace Marketplace.Models
     public class Order
     {
         public Guid OrderID { get; set; }
+
         public DateTime OrderDate { get; set; }
 
         public Boolean IsFulfilled { get; set; }
