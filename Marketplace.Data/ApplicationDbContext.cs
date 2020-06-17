@@ -30,8 +30,8 @@ namespace Marketplace.Data
 
             modelBuilder.Entity<SubOrder>()
                 .HasOne(p => p.Item)
-                .WithOne()
-                .HasForeignKey<Item>(k => k.ItemID);
+                .WithMany()
+                .HasForeignKey(k => k.ItemID);
 
             modelBuilder.Entity<SubOrder>()
                 .HasOne(p => p.Order)
