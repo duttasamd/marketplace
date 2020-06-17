@@ -28,7 +28,8 @@ namespace Marketplace
             services.AddControllersWithViews();
             services
                 .AddDbContextPool<ApplicationDbContext>
-                (options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
+                (options =>
+                options.UseMySQL(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Marketplace")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
