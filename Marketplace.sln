@@ -1,13 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace", "Marketplace\Marketplace.csproj", "{AD3698FA-2F04-4977-82E9-71863DB1472C}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marketplace", "Marketplace\Marketplace.csproj", "{AD3698FA-2F04-4977-82E9-71863DB1472C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.BusinessLogic", "Marketplace.BusinessLogic\Marketplace.BusinessLogic.csproj", "{7436DE05-5EA1-45D8-909A-BC8655568F51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marketplace.Service", "Marketplace.BusinessLogic\Marketplace.Service.csproj", "{7436DE05-5EA1-45D8-909A-BC8655568F51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Data", "Marketplace.Data\Marketplace.Data.csproj", "{77A081EE-B951-4203-8666-6BFFC8C20ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marketplace.Data", "Marketplace.Data\Marketplace.Data.csproj", "{77A081EE-B951-4203-8666-6BFFC8C20ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marketplace.Models", "Marketplace.Models\Marketplace.Models.csproj", "{BF170B2D-BC76-43E0-A5B9-300A7CC7D858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Marketplace.Models", "Marketplace.Models\Marketplace.Models.csproj", "{BF170B2D-BC76-43E0-A5B9-300A7CC7D858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,5 +32,11 @@ Global
 		{BF170B2D-BC76-43E0-A5B9-300A7CC7D858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF170B2D-BC76-43E0-A5B9-300A7CC7D858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF170B2D-BC76-43E0-A5B9-300A7CC7D858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CA3F335-AB74-4152-BF79-213D48AD3C21}
 	EndGlobalSection
 EndGlobal

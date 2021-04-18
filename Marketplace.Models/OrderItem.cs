@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Marketplace.Models
 {
-    public class SubOrder
+    public class OrderItem
     {
         [Key]
-        public Guid SubOrderID { get; set; }
+        public Guid Id { get; set; }
 
         public Guid ItemID { get; set; }
 

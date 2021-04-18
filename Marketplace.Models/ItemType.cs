@@ -7,10 +7,10 @@ namespace Marketplace.Models
     public class ItemType
     {
         [Key]
-        public Guid ItemTypeID { get; set; }
+        public Guid Id { get; set; }
 
-        public string ItemTypeName { get; set; }
+        public string Name { get; set; }
 
-        public ICollection<Item> Items { get; set; }
+        public ICollection<ItemSubType> ItemSubTypes { get; set; }
     }
 }

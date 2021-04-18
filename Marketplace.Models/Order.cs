@@ -8,7 +8,7 @@ namespace Marketplace.Models
     public class Order
     {
         [Key]
-        public Guid OrderID { get; set; }
+        public Guid Id { get; set; }
 
         public DateTime OrderDate { get; set; }
 
@@ -16,8 +16,10 @@ namespace Marketplace.Models
 
         public DateTime? FulfilledDate { get; set; }
 
-        public string CustomerUserName { get; set; }
+        public string ApplicationUserId { get; set; }
+
+        public ApplicationUser ApplicationUser { get; set; }
         
-        public ICollection<SubOrder> SubOrders { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; }
     }
 }

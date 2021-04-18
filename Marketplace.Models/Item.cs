@@ -6,13 +6,15 @@ namespace Marketplace.Models
     public class Item
     {
         [Key]
-        public Guid ItemID { get; set; }
+        public Guid Id { get; set; }
 
-        public string ItemName { get; set; }
+        public string Name { get; set; }
 
-        public Guid ItemTypeID { get; set; }
+        public string Description { get; set; }
 
-        public ItemType ItemType { get; set; }
+        public Guid ItemSubTypeID { get; set; }
+
+        public ItemSubType ItemSubType { get; set; }
 
         public double ItemPrice { get; set; }
     }
